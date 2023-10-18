@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to FileNegara</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+<section>
+    <div class="wrapper">
+<form action="login.html" method="post">
+    <h2>Login</h2>
+    <div class="inputbox">
+        <ion-icon name="person-sharp"></ion-icon>
+        <input type="text" id="user" required>
+        <label for="">Username</label>
+    </div>
+    <div class="inputbox">
+        <ion-icon name="lock-closed-sharp"></ion-icon>
+        <input type="password" id="pw" required>
+        <label for="">Password</label>
+    </div>
+    <div class="forget">
+        <label for=""><input type="checkbox">Remember me <a href="">Forget Password?</a></label>
+    </div>
+    <input type="submit" class="form-control" class="button" value="Login"></input>
+    
+    <div class="register">
+        <p>Tidak Punya Akses Masuk? <a href="https://accounts.google.com/signup/v2/createaccount?flowName=GlifWebSignIn&flowEntry=SignUp">Daftar Disini</a>
+        </p></div>
+    <div class="loginwith">
+        <p>Atau Login Dengan</p>
+        <a href="https://twitter.com/i/flow/login"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="https://www.facebook.com/login/"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="https://id.pinterest.com/login/"><ion-icon name="logo-pinterest"></ion-icon></a>
+        <a href="https://www.instagram.com/accounts/login/"><ion-icon name="logo-instagram"></ion-icon></a>
+    </div>
+</div>
+</form>
+</section>    
+</body>
+</html>

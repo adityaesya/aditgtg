@@ -1,0 +1,43 @@
+img {
+
+    width: 250px;
+    height: 200px;
+    border-radius: 20%;
+    border: none;
+    size-adjust: 50;
+
+}
+
+td{
+    background-color: aquamarine;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    height: 70px;
+    padding-left: 10%;
+}
+
+tr {
+    background-color: aqua;
+}
+
+h1 {
+    color: hotpink;
+}
+
+h4 {
+    color: lawngreen;
+}
+
+table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+background-image: "smile.png";
+}
+

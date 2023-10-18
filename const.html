@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Objek di java script</h1>
+<script>
+const siswa = {
+    namaDepan : "Steven",
+    namaBelakang : "Alex",
+    usia:16,
+    hobi: ["gaming", "ngewibu"]
+};
+
+console.log(`halo, nama saya ${siswa.namaDepan}${siswa.namaBelakang}`);
+console.log(`hobi saya ${siswa.hobi}`);
+console.log(`usia saya ${siswa["usia"]}`);
+
+//mengubah
+siswa.namaBelakang = "veno";
+siswa.namaDepan = "Deril";
+console.log(`nama setelah diubah ${siswa.namaDepan} ${siswa.namaBelakang}`);
+
+//menambah
+siswa.jurusan = "RPL";
+console.log(siswa);
+
+//menghapus
+delete siswa.hobi;
+console.log(siswa);
+
+</script>  
+</body>
+</html>

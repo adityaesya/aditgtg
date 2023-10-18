@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docu</title>
+</head>
+<body>
+    <script>
+        //membuat array
+        let myArray = ["Cokelat",90, 22.5, false, "SMAN Tiga Ngawi"];
+
+        //menampilkan array
+        console.log(myArray);
+
+        //menampilkan 1 data array
+        console.log(myArray[4]);
+
+        console.log(myArray[5]);// hasilnya undefined
+
+        //menambah data array dengan push()
+        myArray.push("Ifat");
+
+        //menghapus data array dengan pop()
+        myArray.pop();
+
+        //menghapus/menambah data dengan shift()/unshift()
+        myArray.shift();
+        myArray.unshift("Ifat Gayming");
+
+        //menghapus data array dengan delete
+        delete myArray[2];
+
+        //menghapus data array dengan splice
+        myArray.splice(3, 2);
+
+        //menampilkan seluruh data array menggunakan for
+        for (let index = 0; index < myArray.length; index++) {
+            console.log(myArray[index]);
+        }
+    </script>
+</body>
+</html>

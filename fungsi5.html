@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+</head>
+<body>
+    <script>
+    //fungsi menghitung total harga
+    const totalHarga = function (jmlBarang, hargaSatuan) {
+        return jmlBarang * hargaSatuan; 
+    };
+
+    console.log("Total Harga: " + totalHarga(12, 14500));
+
+    //fungsi dengan arrow function
+    const jmlHarga = (jmlBarang, hargaSatuan) => {
+        return jmlBarang * hargaSatuan;
+    }
+    console.log("jumlah harga: "+jmlHarga(9, 5500));
+
+    //jika parameternya hanya 1, maka tanda kurung boleh dihilangkan
+    const tampilBarang = nmBarang =>{
+        return nmBarang;
+    };
+
+    const tampilHarga = hrgBarang => hrgBarang;
+
+    console.log("nama Barang: " +tampilBarang("Bolpoin"));
+    console.log("Harga Barang: " +tampilHarga(15000));
+    </script>
+</body>
+</html>
